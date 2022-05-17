@@ -1,0 +1,10 @@
+<h1><%= @starsign.name %></h1>
+
+
+<%= image_tag @starsign.image, :class => 'feature' if @starsign.image.present? %>
+
+<ul>
+    <li>Name: <%= @starsign.name %></li>
+    <li>Planet: <%= @starsign.planet %></li>
+</ul>
+

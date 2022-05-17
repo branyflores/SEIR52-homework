@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>AstroSigns</title>
+    <title>Game01</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-<body>
-    <nav>
-      <%= link_to "All startsigns", starsigns_path %>
-      <%= link_to "New start sign", new_starsign_path %>
-    </nav>
 
+  <body>
     <%= yield %>
   </body>
 </html>
